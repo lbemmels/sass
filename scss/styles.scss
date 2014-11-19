@@ -1,0 +1,35 @@
+$textcolor: #636363;
+$headerfont: Helvetica, sans serif;
+$listmargin: 10px 0px 10px 30px;
+
+@import 'reset'; 
+@import 'type';
+@import 'layout';
+
+
+img {width:100%}
+
+h1 {color:#003663; font-family:$headerfont;}
+h2 {color:$textcolor; font-family:$headerfont; padding:20px 0px 10px 0px;}
+ul {color:$textcolor; padding:20px 0px 15px 0px;}
+footer {font-size:0.75em; text-align: center;}
+img {padding: 20px 0px 10px 0px;}
+a {color:#197b30;}
+
+nav {
+	ul {list-style: none; font-size:1.5em;}
+	li {display: inline; text-transform: uppercase; padding: 0px 35px 0px 0px;}
+	}
+	
+section {
+	h1 {text-transform:uppercase; font-size:3em; letter-spacing:1.5px; padding:20px 0px 10px 0px;}
+	}
+	
+article {
+	ul {list-style: disc; font-size:1em; margin:$listmargin;}
+	ol {font-size:1em; margin:$listmargin;}
+	}
+	
+footer {
+	h2 {color:#003663;}
+	}
